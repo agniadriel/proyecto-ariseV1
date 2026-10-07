@@ -1,0 +1,24 @@
+{
+  "name": "habit-tracker-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API REST para rastreador de hábitos y gestión de tiempo personal",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.9.2",
+    "nodemailer": "^10.0.12"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
